@@ -10,7 +10,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Aloysius Lim # add your name
-author-img:  "/assets/img/Homepage Image.jpg" # add your photo
+author-img:  Homepage Image.jpg # add your photo
 about-author: I strive to turn Data into Insights, and Insights into Change 
 I am currently pursuing a bachelor's degree in Finance with the Singapore University of Social Sciences. I am also undergoing certification in the Entry Certificate in Business Analytics with the IIBA™ 
 # add description
