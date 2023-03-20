@@ -11,16 +11,15 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
       <br>
-      <p>I am currently pursuing a bachelor's degree in Finance with the Singapore University of Social Sciences. I am also undergoing certification in the Entry Certificate in Business Analytics with the IIBA™</p>
-      <br>
+      <p>I am currently pursuing a bachelor's degree in Finance and undergoing certification in the Entry Certificate in Business Analytics with the IIBA™</p>
       <p>
-        <a href="{{site.baseurl}}/">View My Projects</a>
+        <a href="{{site.baseurl}}/tags">View My Projects</a>
       </p>
       <p>
-        <a href="{{site.baseurl}}/">View My CV</a>
+        <a href="{{site.baseurl}}/tags">View My CV</a>
       </p>
       <p>
-        <a href="{{site.baseurl}}/">View My Learning Journey</a>
+        <a href="{{site.baseurl}}/tags">View My Learning Journey</a>
       </p>
     </div>
   </header> <!-- End Header -->
@@ -28,16 +27,6 @@ layout: default
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
-        {% if site.social-twitter %}
-          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-facebook %}
-          <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% endif %}
         {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
         {% else %}
